@@ -1,7 +1,6 @@
 "use client";
 
 import axios from "axios";
-import Link from "next/link";
 import { useState } from "react";
 
 import { useModal } from "@/hooks/useModal";
@@ -43,9 +42,6 @@ export const TrueTrueFalseList = () => {
 
   return (
     <div className="h-1dvh flex w-full flex-col items-center justify-center gap-4">
-      <Link href={"/"} className="absolute top-5 left-5">
-        뒤로가기
-      </Link>
       <h1 className="mdl:text-4xl py-1 text-3xl font-medium text-slate-700">
         Funnection 진진진가
       </h1>
