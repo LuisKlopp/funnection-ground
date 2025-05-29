@@ -46,7 +46,6 @@ export const TrueTrueFalseList = () => {
         Funnection 진진진가
       </h1>
       <span className="text-lg text-slate-500">진짜 세 개와 가짜 하나</span>
-
       <div className="flex gap-4 text-[20px]">
         {trueTrueFalseList.map((item) => (
           <div
