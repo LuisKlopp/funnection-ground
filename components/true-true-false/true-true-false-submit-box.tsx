@@ -1,7 +1,6 @@
 "use client";
 
 import axios from "axios";
-import Link from "next/link";
 import { useState } from "react";
 
 import { Input } from "@/components/input";
@@ -48,7 +47,7 @@ export const TrueTrueFalseSubmitBox = () => {
         }, 1500);
       })
       .catch((error) => {
-        console.error("진진가 제출 실패:", error);
+        console.error("진진진가 제출 실패:", error);
         alert("제출 중 오류가 발생했습니다. 다시 시도해주세요.");
       });
   };
@@ -56,9 +55,6 @@ export const TrueTrueFalseSubmitBox = () => {
   return (
     <div className="box-shadow-04 flex w-[90%] flex-col items-center justify-center gap-12 rounded-lg border-2 bg-[#7baab8] p-4 pt-8 pb-8">
       {isModal && <SubmitModal contents="진진진가 제출완료 ✅" />}
-      <Link href={"/"} className="absolute top-5 left-5">
-        뒤로가기
-      </Link>
       <h1 className="text-center text-3xl text-white">
         Funnection Ground <br /> 진진진가
       </h1>
