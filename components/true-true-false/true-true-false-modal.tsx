@@ -43,7 +43,7 @@ export const TrueTrueFalseModal = ({
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="box-shadow-04 relative mx-4 flex w-[700px] flex-col items-center justify-evenly rounded-lg bg-[#d6ecf8] py-8 shadow-lg">
         <button
-          className="absolute top-2 right-2 text-2xl text-gray-500 hover:text-gray-800"
+          className="absolute top-2 right-2 cursor-pointer text-2xl text-gray-500 hover:text-gray-800"
           onClick={closeModal}
         >
           X
